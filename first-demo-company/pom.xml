@@ -13,7 +13,21 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
  
-
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://3.110.104.43:8500/rambabutech/repository/first-demo-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.110.104.43:8500/rambabutech/repository/First-demo-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 
             
